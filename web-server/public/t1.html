@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//W3C//dtD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/dtD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>上拉菜单</title>
+<style type="text/css"> 
+    body,dl,dt,dd {margin:0;padding:0;}
+    body {color:#FFF; font:12px "宋体";background-color:#000;}
+    a {color:#FFF; text-decoration:none;}
+    #menu {
+        width:831px; 
+        margin:0 auto; 
+/**        padding-top:215px;  */
+        /**        
+        background:url("http://phylab.szu.edu.cn/adpic/top.jpg") no-repeat 0 0;
+        */
+    }
+    #menu dl { text-align:center; position:relative; float:left; height:auto;}
+    #menu dl dt {width:83px;}
+    #menu dl dt a {padding:10px 0 4px 0; height:16px;  display:block; background-color:#111;}
+    #menu dl dt a:hover {background-color:#F90;}
+    #menu dl dd {width:83px; position:absolute; display:none; overflow:hidden;}
+    #menu dl dd a{display:block;height:30px; line-height:30px;background-color:#333; filter:alpha(opacity=70);opacity: 0.7;}
+    #menu dl dd a:hover {background-color:#222; filter:alpha(opacity=40);opacity: 0.4;}
+    #menu dl dd a span,
+    #menu dl dd a:hover span {position:relative;}
+</style>
+</head>
+<body>
+<img src="http://phylab.szu.edu.cn/adpic/top.jpg"/>
+
+<div id="menu">
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+<dl>
+    <dt><a href="javascript:void(0);">导航菜单</a></dt>
+    <dd>
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+        <A href="javascript:void(0);"><span>栏目菜单</span></A>     
+    </dd>
+</dl>
+</div>
+<script>
+function ShowMenu(obj,d){
+    var dt = obj.parentNode;
+    var dd = dt.getElementsByTagName("dd")[0];
+    clearInterval(dd.timer);
+    if(d == 1){
+        clearTimeout(dt.timer);
+        if(dd.maxh && dd.maxh == dd.offsetHeight){
+            return;
+        }else if(!dd.maxh){
+            dd.style.top = '-' + dd.offsetHeight + 'px';
+            dd.style.display = "block";
+            dd.maxh = dd.offsetHeight;
+            dd.style.height = '0px';
+        }
+        dd.timer = setInterval(function(){ddSlide(dd,1)},15);
+    }else{
+        dt.timer = setTimeout(function(){ddCollapse(dd)},50);
+    }   
+}
+function ddCollapse(c){c.timer = setInterval(function(){ddSlide(c,-1)},15);}
+function cancelHide(obj){
+    var dt = obj.parentNode;
+    var dd = dt.getElementsByTagName("dd")[0];
+    clearTimeout(dt.timer);
+    clearInterval(dd.timer);
+    if(dd.offsetHeight != dd.maxh){dd.timer = setInterval(function(){ddSlide(dd,1)},15);}
+}
+function ddSlide(c,d){
+    var currh = c.offsetHeight;
+    var h = (d!=1?(Math.ceil(currh/10)):(Math.ceil((c.maxh - currh)/10)));
+    var t = parseInt(c.style.top);
+    if(h < 0 && d == 1){h = 1;}
+    c.style.top = t - parseInt(h * d) + 'px';
+    c.style.height = currh + (h * d) + 'px';
+    if((currh == 0 && d == -1) || (currh == c.maxh && d == 1))clearInterval(c.timer);
+}
+
+for(var _dl = document.getElementById("menu").getElementsByTagName("dl"),i=-1,dl;dl=_dl[++i];){
+    var dt = dl.getElementsByTagName("dt")[0];
+    var dd = dl.getElementsByTagName("dd")[0];
+    dt.onmouseover= function(){return ShowMenu(this,1);}
+    dt.onmouseout = dd.onmouseout = function(){return ShowMenu(this,-1);}
+    dd.onmouseover= function(){return cancelHide(this);}
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,42 @@
+[2013-06-10 16:35:18.936] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:35:20.321] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:35:20.338] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:35:20.383] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:35:20.385] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:45:50.563] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:45:51.759] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:45:51.775] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:45:51.805] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:45:51.807] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:45:58.971] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:46:00.233] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:46:00.248] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:46:00.324] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:46:00.327] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:47:57.831] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:47:59.043] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:47:59.060] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:47:59.091] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:47:59.093] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:48:00.732] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:48:01.842] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:48:01.858] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:48:02.198] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:48:02.202] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:52:58.890] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:53:00.023] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:53:00.040] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:53:00.067] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:53:00.068] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 16:53:01.904] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 16:53:05.976] [INFO] console - info: 'socket.io started'
+[2013-06-10 16:53:05.993] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 16:53:06.023] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 16:53:06.026] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start
+[2013-06-10 18:12:27.834] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 18:12:29.136] [INFO] console - info: 'socket.io started'
+[2013-06-10 18:12:30.667] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-2"
+[2013-06-10 18:12:31.968] [INFO] console - info: 'socket.io started'
+[2013-06-10 18:12:31.993] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-10 18:12:32.156] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" enter after start...
+[2013-06-10 18:12:32.158] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-2" finish start

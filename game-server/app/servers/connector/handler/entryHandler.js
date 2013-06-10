@@ -22,12 +22,9 @@ handler.enter = function(msg, session, next) {
 	var uid = msg.username + '*' + rid
 	var sessionService = self.app.get('sessionService');
 
-	//duplicate log in
+	// duplicate log in
 	if( !! sessionService.getByUid(uid)) {
-		next(null, {
-			code: 500,
-			error: true
-		});
+		next(null, {code: 500, error: true});
 		return;
 	}
 
@@ -42,9 +39,7 @@ handler.enter = function(msg, session, next) {
 
 	//put user into channel
 	self.app.rpc.chat.chatRemote.add(session, uid, self.app.get('serverId'), rid, true, function(users){
-		next(null, {
-			users:users
-		});
+		next(null, {users:users});
 	});
 };
 

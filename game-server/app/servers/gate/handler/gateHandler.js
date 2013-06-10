@@ -1,4 +1,5 @@
 var dispatcher = require('../../../util/dispatcher');
+var _ = require('underscore');
 
 module.exports = function(app) {
 	return new Handler(app);
@@ -19,19 +20,11 @@ var handler = Handler.prototype;
  *
  */
 handler.queryEntry = function(msg, session, next) {
-	var uid = msg.uid;
-	if(!uid) {
-		next(null, {
-			code: 500
-		});
-		return;
-	}
+    var uid = _.random(0, 100000000);
 	// get all connectors
 	var connectors = this.app.getServersByType('connector');
 	if(!connectors || connectors.length === 0) {
-		next(null, {
-			code: 500
-		});
+		next(null, {code: 500});
 		return;
 	}
 	// select connector

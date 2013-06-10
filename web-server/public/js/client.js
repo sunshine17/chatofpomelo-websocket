@@ -177,9 +177,35 @@ function queryEntry(uid, callback) {
 	});
 };
 
+function login(){
+    var username = Math.random();
+    var rid = 1;
+    queryEntry(username, function(host, port) {
+        pomelo.init({
+            host: host,
+            port: port,
+            log: true
+        }, function() {
+            pomelo.request("connector.entryHandler.enter", {
+                username: username,
+                rid: rid
+            }, function(data) {
+                if(data.error) {
+                    showError(DUPLICATE_ERROR);
+                    return;
+                }
+                setName();
+                setRoom();
+                showChat();
+                initUserList(data);
+            });
+        });
+    });
+};
+
+
 $(document).ready(function() {
-	//when first time into chat room.
-	showLogin();
+    login();
 
 	//wait message from the server.
 	pomelo.on('onChat', function(data) {
@@ -207,46 +233,6 @@ $(document).ready(function() {
 	//handle disconect message, occours when the client is disconnect with servers
 	pomelo.on('disconnect', function(reason) {
 		showLogin();
-	});
-
-	//deal with login button click.
-	$("#login").click(function() {
-		username = $("#loginUser").attr("value");
-		rid = $('#channelList').val();
-
-		if(username.length > 20 || username.length == 0 || rid.length > 20 || rid.length == 0) {
-			showError(LENGTH_ERROR);
-			return false;
-		}
-
-		if(!reg.test(username) || !reg.test(rid)) {
-			showError(NAME_ERROR);
-			return false;
-		}
-
-		//query entry of connection
-		queryEntry(username, function(host, port) {
-			pomelo.init({
-				host: host,
-				port: port,
-				log: true
-			}, function() {
-				var route = "connector.entryHandler.enter";
-				pomelo.request(route, {
-					username: username,
-					rid: rid
-				}, function(data) {
-					if(data.error) {
-						showError(DUPLICATE_ERROR);
-						return;
-					}
-					setName();
-					setRoom();
-					showChat();
-					initUserList(data);
-				});
-			});
-		});
 	});
 
 	//deal with chat mode.
