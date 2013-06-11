@@ -1,6 +1,6 @@
 var pomelo = window.pomelo;
 var username;
-var users;
+var menus;
 var rid;
 var base = 1000;
 var increase = 25;
@@ -49,28 +49,15 @@ function scrollDown(base) {
 };
 
 // add message on board
-function addMessage(from, target, text, time) {
-	var name = (target == '*' ? 'all' : target);
+function addMessage(from, text) {
 	if(text === null) return;
-	if(time == null) {
-		// if the time is null or undefined, use the current time.
-		time = new Date();
-	} else if((time instanceof Date) === false) {
-		// if it's a timestamp, interpret it
-		time = new Date(time);
-	}
-	//every message you see is actually a table with 3 cols:
-	//  the time,
-	//  the person who caused the event,
-	//  and the content
-	var messageElement = $(document.createElement("table"));
-	messageElement.addClass("message");
-	// sanitize
+    var time = new Date();
+	var msgElem = $(document.createElement("table"));
+	msgElem.addClass("message");
 	text = util.toStaticHTML(text);
-	var content = '<tr>' + '  <td class="date">' + util.timeString(time) + '</td>' + '  <td class="nick">' + util.toStaticHTML(from) + ' says to ' + name + ': ' + '</td>' + '  <td class="msg-text">' + text + '</td>' + '</tr>';
-	messageElement.html(content);
-	//the log is the stream that we view
-	$("#chatHistory").append(messageElement);
+	var content = '<tr>' + '  <td class="date">' + util.timeString(time) + '</td>' + '  <td class="nick">' + util.toStaticHTML(from) + '</td>' + '  <td class="msg-text">' + text + '</td>' + '</tr>';
+	msgElem.html(content);
+	$("#chatHistory").append(msgElem);
 	base += increase;
 	scrollDown(base);
 };
@@ -92,45 +79,53 @@ function tip(type, name) {
 			title = 'Message Notify';
 			break;
 	}
-	var pop=new Pop(title, tip);
+    console.log('title: ' + title);
+    console.log('tip: ' + tip);
+//	var pop=new Pop(title, tip);
 };
 
-// init user list
-function initUserList(data) {
-	users = data.users;
-	for(var i = 0; i < users.length; i++) {
-		var slElement = $(document.createElement("option"));
-		slElement.attr("value", users[i]);
-		slElement.text(users[i]);
-		$("#usersList").append(slElement);
-	}
-};
 
-// add user in user list
-function addUser(user) {
-	var slElement = $(document.createElement("option"));
-	slElement.attr("value", user);
-	slElement.text(user);
-	$("#usersList").append(slElement);
-};
+function showMenus(data) {
+	menus = data.menus;
+    console.dir(menus);
+    var $m = $('#menu');
+    $m.empty();
+    var menu_str = '<dl><dt><a href="javascript:on_sub();">订阅</a></dt></dl>';
+    for (var i = 0; i < menus.length; i++) {
+        var m = menus[i];
+        var href = 'javascript:void(0);';
+        var dd = gen_sub_menus(m);
+        if (!dd) {
+            href = 'javascript:on_menu(\'' + m.key + '\');';
+        };
+        var dt = '<dt><a href="' + href + '">' + m.name + '</a></dt>';
+        menu_str += '<dl>' + dt + dd + '</dl>';
+    };
+    $m.append(menu_str);
+    init_menu();
+}; // showMenus()
 
-// remove user from user list
-function removeUser(user) {
-	$("#usersList option").each(
-		function() {
-			if($(this).val() === user) $(this).remove();
-	});
-};
+function on_menu(key){
+    console.log(key);
+}
+function on_sub(){
+}
 
-// set your name
-function setName() {
-	$("#name").text(username);
-};
+function gen_sub_menus(m){
+    if (!m.sub_button) {
+        return '';
+    };
+    var ret = '';
+    var subs = m.sub_button;
+    for (var i = 0; i < subs.length; i++) {
+        var sub = subs[i];
+        ret += '<A href="javascript:on_menu(\'' + sub.key + '\');"><span>' + sub.name + '</span></A>'
+    };
+    if (!ret) {return ret;}
+    ret = '<dd>' + ret + '</dd>';
+    return ret;
+}; // gen_sub_menus()
 
-// set your room
-function setRoom() {
-	$("#room").text(rid);
-};
 
 // show error
 function showError(content) {
@@ -149,7 +144,6 @@ function showLogin() {
 
 // show chat panel
 function showChat() {
-	$("#loginView").hide();
 	$("#loginError").hide();
 	$("#toolbar").show();
 	$("entry").focus();
@@ -194,10 +188,8 @@ function login(){
                     showError(DUPLICATE_ERROR);
                     return;
                 }
-                setName();
-                setRoom();
                 showChat();
-                initUserList(data);
+                showMenus(data);
             });
         });
     });
@@ -209,26 +201,9 @@ $(document).ready(function() {
 
 	//wait message from the server.
 	pomelo.on('onChat', function(data) {
-		addMessage(data.from, data.target, data.msg);
+		addMessage('公众号返回:', data.msg);
 		$("#chatHistory").show();
-		if(data.from !== username)
-			tip('message', data.from);
 	});
-
-	//update user list
-	pomelo.on('onAdd', function(data) {
-		var user = data.user;
-		tip('online', user);
-		addUser(user);
-	});
-
-	//update user list
-	pomelo.on('onLeave', function(data) {
-		var user = data.user;
-		tip('offline', user);
-		removeUser(user);
-	});
-
 
 	//handle disconect message, occours when the client is disconnect with servers
 	pomelo.on('disconnect', function(reason) {
@@ -237,22 +212,13 @@ $(document).ready(function() {
 
 	//deal with chat mode.
 	$("#entry").keypress(function(e) {
-		var route = "chat.chatHandler.send";
-		var target = $("#usersList").val();
-		if(e.keyCode != 13 /* Return */ ) return;
+		if(e.keyCode != 13 ) { return; }
 		var msg = $("#entry").attr("value").replace("\n", "");
 		if(!util.isBlank(msg)) {
-			pomelo.request(route, {
-				rid: rid,
-				content: msg,
-				from: username,
-				target: target
-			}, function(data) {
+			pomelo.request('sim.simHandler.send', {content: msg}, function(data) {
 				$("#entry").attr("value", ""); // clear the entry field.
-				if(target != '*' && target != username) {
-					addMessage(username, target, msg);
-					$("#chatHistory").show();
-				}
+                addMessage('你发送了:', msg);
+                $("#chatHistory").show();
 			});
 		}
 	});

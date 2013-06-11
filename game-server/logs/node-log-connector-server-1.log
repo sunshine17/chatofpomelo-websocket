@@ -1,45 +1,235 @@
-[2013-06-10 16:35:18.836] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:35:20.168] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:35:20.185] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:35:20.362] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:35:20.364] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:45:50.363] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:45:51.322] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:45:51.338] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:45:51.362] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:45:51.363] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:45:58.870] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:45:59.979] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:45:59.995] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:46:00.023] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:46:00.025] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:47:57.731] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:47:58.871] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:47:58.887] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:47:58.914] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:47:58.916] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:48:00.630] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:48:01.613] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:48:01.629] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:48:01.779] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:48:01.781] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:52:58.790] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:52:59.748] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:52:59.764] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:52:59.786] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:52:59.787] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 16:53:01.684] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 16:53:04.899] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:53:04.917] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 16:53:04.947] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 16:53:04.949] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 18:12:27.725] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 18:12:29.025] [INFO] console - info: 'socket.io started'
-[2013-06-10 18:12:29.051] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 18:12:29.089] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 18:12:29.091] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
-[2013-06-10 18:12:30.567] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
-[2013-06-10 18:12:31.463] [INFO] console - info: 'socket.io started'
-[2013-06-10 18:12:31.490] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
-[2013-06-10 18:12:31.525] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
-[2013-06-10 18:12:31.529] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 16:40:01.602] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 16:40:02.982] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:40:02.999] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 16:40:03.038] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 16:40:03.040] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 16:57:35.233] [ERROR] console -  Caught exception: TypeError: Cannot read property 'simRemote' of undefined
+    at handler.enter (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:34:18)
+    at Service.handle (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/handlerService.js:34:30)
+    at handle (/home/linzy/local/node/lib/node_modules/pomelo/lib/server/server.js:219:25)
+    at Service.beforeFilter.next (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/filterService.js:50:7)
+    at Filter.before (/home/linzy/local/node/lib/node_modules/pomelo/lib/filters/handler/timeout.js:25:3)
+    at Service.beforeFilter.next (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/filterService.js:58:15)
+    at Service.beforeFilter (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/filterService.js:65:3)
+    at beforeFilter (/home/linzy/local/node/lib/node_modules/pomelo/lib/server/server.js:116:8)
+    at doHandle (/home/linzy/local/node/lib/node_modules/pomelo/lib/server/server.js:232:3)
+    at pro.handle (/home/linzy/local/node/lib/node_modules/pomelo/lib/server/server.js:71:5)
+[2013-06-11 16:57:38.229] [WARN] /home/linzy/local/node/lib/node_modules/pomelo/lib/filters/handler/timeout.js - request "connector.entryHandler.enter" timeout.
+[2013-06-11 16:58:10.515] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 16:58:11.518] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:11.524] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 16:58:13.561] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 16:58:14.778] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:14.785] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 16:58:56.423] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 16:58:57.181] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:57.185] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:769:11)
+    at Server._listen2 (net.js:909:14)
+    at listen (net.js:936:10)
+    at Server.listen (net.js:985:5)
+    at Object.exports.listen (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/linzy/local/node/lib/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/linzy/local/node/lib/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2013-06-11 16:58:57.191] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 17:00:17.674] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:00:18.658] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:00:18.665] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 17:01:06.135] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:01:07.078] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:01:07.095] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:01:07.200] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:01:07.203] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:02:11.057] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:02:11.934] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:02:11.952] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:02:11.988] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:02:11.990] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:03:19.177] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:03:20.120] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:03:20.136] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:03:20.365] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:03:20.367] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:03:41.373] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:03:42.321] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:03:42.339] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:03:42.568] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:03:42.570] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:04:05.329] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:04:05.885] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:04:05.902] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:04:06.147] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:04:06.149] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:04:54.217] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:04:55.286] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:04:55.304] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:04:55.341] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:04:55.343] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:28:34.312] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:28:34.496] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Object._onTimeout (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/commands/heartbeat.js:56:12)
+    at Timer.list.ontimeout (timers.js:101:19)
+[2013-06-11 17:32:44.685] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:32:47.179] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Object._onTimeout (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/commands/heartbeat.js:56:12)
+    at Timer.list.ontimeout (timers.js:101:19)
+[2013-06-11 17:35:20.083] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:35:32.277] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:35:50.891] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:35:51.868] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:35:51.885] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:35:51.924] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:35:51.926] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start
+[2013-06-11 17:42:12.035] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:43:14.718] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:43:15.512] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Object._onTimeout (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/commands/heartbeat.js:56:12)
+    at Timer.list.ontimeout (timers.js:101:19)
+[2013-06-11 17:44:13.733] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:44:24.772] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:45:39.007] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:45:40.432] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Object._onTimeout (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/commands/heartbeat.js:56:12)
+    at Timer.list.ontimeout (timers.js:101:19)
+[2013-06-11 17:45:58.283] [ERROR] console -  Caught exception: TypeError: Cannot read property 'chatRemote' of undefined
+    at onUserLeave (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/connector/handler/entryHandler.js:50:14)
+    at EventEmitter.emit (events.js:126:20)
+    at Session.closed (/home/linzy/local/node/lib/node_modules/pomelo/lib/common/service/sessionService.js:462:8)
+    at EventEmitter.emit (events.js:126:20)
+    at WebSocket.EventEmitter.emit (events.js:126:20)
+    at WebSocket.cleanupWebsocketResources (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:649:23)
+    at Socket.EventEmitter.emit (events.js:93:17)
+    at TCP.onread (net.js:417:51)
+[2013-06-11 17:46:00.479] [ERROR] console -  Caught exception: Error: not opened
+    at WebSocket.send (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/ws/lib/WebSocket.js:175:16)
+    at Socket.sendRaw (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/hybridsocket.js:56:15)
+    at Object._onTimeout (/home/linzy/local/node/lib/node_modules/pomelo/lib/connectors/commands/heartbeat.js:56:12)
+    at Timer.list.ontimeout (timers.js:101:19)
+[2013-06-11 17:46:20.678] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "connector-server-1"
+[2013-06-11 17:46:21.627] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:46:21.645] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "connector", "127.0.0.1", 3005
+[2013-06-11 17:46:21.683] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" enter after start...
+[2013-06-11 17:46:21.685] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "connector-server-1" finish start

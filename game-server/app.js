@@ -33,6 +33,8 @@ app.configure('production|development', function() {
 	app.filter(pomelo.timeout());
 });
 
+require('./load_mgr').initLoad(app);
+
 // start app
 app.start();
 

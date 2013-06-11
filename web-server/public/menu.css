@@ -1,0 +1,17 @@
+body,dl,dt,dd {margin:0;padding:0;}
+body {font:14px "宋体";}
+a {color:#FFF; text-decoration:none;}
+#menu {
+    width:831px; 
+    margin:0 auto; 
+}
+#menu dl { text-align:center; position:relative; float:left; height:auto;}
+#menu dl dt {width:83px;}
+#menu dl dt a {padding:10px 0 4px 0; height:16px;  display:block; background-color:#111;}
+
+#menu dl dt a:hover {background-color:#F90;}
+#menu dl dd {width:83px; position:absolute; display:none; overflow:hidden;}
+#menu dl dd a{display:block;height:30px; line-height:30px;background-color:#333; filter:alpha(opacity=70);opacity: 0.7;}
+#menu dl dd a:hover {background-color:#222; filter:alpha(opacity=40);opacity: 0.4;}
+#menu dl dd a span,
+#menu dl dd a:hover span {position:relative;}

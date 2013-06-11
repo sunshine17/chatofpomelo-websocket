@@ -1,24 +1,50 @@
-[2013-06-10 16:35:19.737] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 16:35:20.443] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 16:35:20.470] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 16:35:20.474] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
-[2013-06-10 16:45:51.347] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 16:45:52.074] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 16:45:52.113] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 16:45:52.117] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
-[2013-06-10 16:45:59.954] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 16:46:00.550] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 16:46:00.576] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 16:46:00.579] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
-[2013-06-10 16:48:01.368] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 16:48:04.712] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 16:48:05.223] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 16:48:05.227] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
-[2013-06-10 16:53:02.284] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 16:53:06.403] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 16:53:06.432] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 16:53:06.435] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
-[2013-06-10 18:12:31.311] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
-[2013-06-10 18:12:32.203] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
-[2013-06-10 18:12:32.232] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
-[2013-06-10 18:12:32.241] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 16:40:02.292] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 16:40:06.326] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 16:40:06.357] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 16:40:06.361] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 16:58:11.265] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 16:58:12.003] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 16:58:14.098] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 16:58:15.093] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 16:58:15.119] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 16:58:15.122] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 16:58:57.131] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 16:58:57.981] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 16:58:58.015] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 16:58:58.018] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:00:18.393] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:00:19.071] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:00:19.101] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:00:19.106] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:01:07.204] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:01:07.812] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:01:07.849] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:01:07.853] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:02:11.638] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:02:12.677] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:02:12.725] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:02:12.729] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:03:19.791] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:03:20.860] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:03:20.894] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:03:20.898] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:03:42.101] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:03:43.046] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:03:43.078] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:03:43.082] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:04:06.141] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:04:07.014] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:04:07.053] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:04:07.057] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:04:54.682] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:04:55.547] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:04:55.579] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:04:55.584] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:35:51.526] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:35:52.594] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:35:52.626] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:35:52.630] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start
+[2013-06-11 17:46:21.228] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "gate-server-1"
+[2013-06-11 17:46:22.322] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "gate", "127.0.0.1", 3005
+[2013-06-11 17:46:22.372] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" enter after start...
+[2013-06-11 17:46:22.376] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "gate-server-1" finish start

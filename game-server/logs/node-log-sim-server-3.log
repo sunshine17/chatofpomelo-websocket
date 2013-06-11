@@ -1,0 +1,92 @@
+[2013-06-11 16:58:10.836] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 16:58:12.024] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:13.996] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 16:58:14.960] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:14.965] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 16:58:57.139] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 16:58:57.837] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:58:57.841] [ERROR] console -  Caught exception: Error: listen EADDRINUSE
+    at errnoException (net.js:769:11)
+    at Server._listen2 (net.js:909:14)
+    at listen (net.js:936:10)
+    at Server.listen (net.js:985:5)
+    at Object.exports.listen (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/socket.io/lib/socket.io.js:74:12)
+    at pro.listen (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/acceptors/ws-acceptor.js:29:21)
+    at pro.start (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-rpc/lib/rpc-server/gateway.js:42:17)
+    at pro.start (/home/linzy/local/node/lib/node_modules/pomelo/lib/components/remote.js:46:15)
+    at module.exports.optComponents (/home/linzy/local/node/lib/node_modules/pomelo/lib/util/appUtil.js:82:19)
+    at async.eachSeries.iterate (/home/linzy/local/node/lib/node_modules/pomelo/node_modules/async/lib/async.js:123:13)
+[2013-06-11 16:58:57.847] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 17:00:18.311] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:00:19.276] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:00:19.281] [ERROR] console -  Caught exception: Error: Cannot find module '../remote/chatRemote'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:362:17)
+    at require (module.js:378:17)
+    at Object.<anonymous> (/var/linzy/wsp/node/games/chatofpomelo-websocket/game-server/app/servers/sim/handler/simHandler.js:1:80)
+    at Module._compile (module.js:449:26)
+    at Object.Module._extensions..js (module.js:467:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:362:17)
+[2013-06-11 17:01:06.468] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:01:07.485] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:01:07.497] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:01:07.768] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:01:07.769] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:02:11.692] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:02:12.648] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:02:12.661] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:02:12.756] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:02:12.757] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:03:19.710] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:03:20.727] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:03:20.740] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:03:20.807] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:03:20.808] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:03:41.876] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:03:42.747] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:03:42.760] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:03:43.029] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:03:43.030] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:04:06.197] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:04:06.885] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:04:06.898] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:04:07.033] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:04:07.033] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:04:54.600] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:04:55.663] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:04:55.676] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:04:55.748] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:04:55.750] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:35:51.446] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:35:52.416] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:35:52.431] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:35:52.503] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:35:52.505] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start
+[2013-06-11 17:46:21.185] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "sim-server-3"
+[2013-06-11 17:46:22.118] [INFO] console - info: 'socket.io started'
+[2013-06-11 17:46:22.132] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "sim", "127.0.0.1", 3005
+[2013-06-11 17:46:22.302] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" enter after start...
+[2013-06-11 17:46:22.303] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "sim-server-3" finish start

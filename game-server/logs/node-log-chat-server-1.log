@@ -1,40 +1,5 @@
-[2013-06-10 16:35:19.213] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:35:20.269] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:35:20.279] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:35:20.423] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:35:20.424] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:45:50.794] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:45:51.840] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:45:51.850] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:45:51.903] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:45:51.904] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:45:59.096] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:45:59.734] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:45:59.745] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:46:00.168] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:46:00.169] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:47:58.309] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:47:59.170] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:47:59.182] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:47:59.270] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:47:59.271] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:48:00.803] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:48:01.793] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:48:01.804] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:48:02.248] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:48:02.249] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:52:59.272] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:53:00.242] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:53:00.253] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:53:00.302] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:53:00.302] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 16:53:02.010] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 16:53:05.915] [INFO] console - info: 'socket.io started'
-[2013-06-10 16:53:05.925] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 16:53:06.339] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 16:53:06.340] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
-[2013-06-10 18:12:30.867] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
-[2013-06-10 18:12:31.709] [INFO] console - info: 'socket.io started'
-[2013-06-10 18:12:31.720] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-10 18:12:32.144] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
-[2013-06-10 18:12:32.145] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start
+[2013-06-11 16:40:02.010] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-1"
+[2013-06-11 16:40:04.611] [INFO] console - info: 'socket.io started'
+[2013-06-11 16:40:04.624] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
+[2013-06-11 16:40:05.673] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" enter after start...
+[2013-06-11 16:40:05.674] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-1" finish start

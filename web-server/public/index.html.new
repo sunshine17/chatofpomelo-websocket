@@ -17,7 +17,22 @@
             <div id="chatHistory"></div>
             <div id="toolbar">
                 <ul id="status">
-                    <li id="menu"></li>
+                    <li id="menu">
+                        <dl>
+                            <dt><a href="javascript:void(0);">菜单1</a></dt>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0);">菜单2</a></dt>
+                            <dd><A href="javascript:void(0);"><span>测试1</span></A></dd>
+                        </dl>
+                        <dl>
+                            <dt><a href="javascript:void(0);">菜单3</a></dt>
+                            <dd>
+                                <A href="javascript:void(0);"><span>测试</span></A>
+                                <A href="javascript:void(0);"><span>测试</span></A>
+                            </dd>
+                        </dl>
+                    </li>
                 </ul>
                 <input tabindex="1" type="text" id="entry" />
             </div>
