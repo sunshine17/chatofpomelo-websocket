@@ -1,5 +1,0 @@
-[2013-06-11 16:40:02.179] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - application inited: "chat-server-2"
-[2013-06-11 16:40:05.711] [INFO] console - info: 'socket.io started'
-[2013-06-11 16:40:05.722] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/node_modules/pomelo-admin/lib/consoleService.js - try to connect master: "chat", "127.0.0.1", 3005
-[2013-06-11 16:40:06.471] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-2" enter after start...
-[2013-06-11 16:40:06.472] [INFO] /home/linzy/local/node/lib/node_modules/pomelo/lib/application.js - "chat-server-2" finish start

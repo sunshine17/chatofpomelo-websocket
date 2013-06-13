@@ -5,5 +5,6 @@ var conf = {
         token: 'lz709394'
     }
 };
+global._app = {};
 global._app.conf = conf;
 module.exports = conf;

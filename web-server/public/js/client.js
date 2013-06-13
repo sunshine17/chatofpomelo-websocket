@@ -2,7 +2,7 @@ var pomelo = window.pomelo;
 var username;
 var menus;
 var rid;
-var base = 1000;
+var base = 10000000;
 var increase = 25;
 var reg = /^[a-zA-Z0-9_\u4e00-\u9fa5]+$/;
 var LOGIN_ERROR = "There is no server to log in, please wait.";
@@ -11,6 +11,10 @@ var NAME_ERROR = "Bad character in Name/Channel. Can only have letters, numbers,
 var DUPLICATE_ERROR = "Please change your name to login.";
 
 util = {
+    now: function(){
+        return moment().format('YYYY-MM-DD HH:m:ss');
+    },
+
 	urlRE: /https?:\/\/([-\w\.]+)+(:\d+)?(\/([^\s]*(\?\S+)?)?)?/g,
 	//  html sanitizer
 	toStaticHTML: function(inputHtml) {
@@ -51,16 +55,17 @@ function scrollDown(base) {
 // add message on board
 function addMessage(from, text) {
 	if(text === null) return;
-    var time = new Date();
-	var msgElem = $(document.createElement("table"));
-	msgElem.addClass("message");
+	var msgElem = $(document.createElement("div"));
 	text = util.toStaticHTML(text);
-	var content = '<tr>' + '  <td class="date">' + util.timeString(time) + '</td>' + '  <td class="nick">' + util.toStaticHTML(from) + '</td>' + '  <td class="msg-text">' + text + '</td>' + '</tr>';
+	var content = util.now() + ' | ' + util.toStaticHTML(from) + text + '<br/>';
 	msgElem.html(content);
-	$("#chatHistory").append(msgElem);
-	base += increase;
-	scrollDown(base);
+    add_msg_elem(msgElem);
 };
+
+function add_msg_elem(elem){
+	$("#chatHistory").append(elem);
+	scrollDown(base);
+}
 
 // show tip
 function tip(type, name) {
@@ -96,7 +101,7 @@ function showMenus(data) {
         var href = 'javascript:void(0);';
         var dd = gen_sub_menus(m);
         if (!dd) {
-            href = 'javascript:on_menu(\'' + m.key + '\');';
+            href = 'javascript:on_menu(\'' + m.key + '\', \'' + m.name + '\');';
         };
         var dt = '<dt><a href="' + href + '">' + m.name + '</a></dt>';
         menu_str += '<dl>' + dt + dd + '</dl>';
@@ -105,10 +110,12 @@ function showMenus(data) {
     init_menu();
 }; // showMenus()
 
-function on_menu(key){
-    console.log(key);
+function on_menu(key, name){
+    send_msg('CLICK', key, name);
 }
+
 function on_sub(){
+    send_msg('subscribe', '', '订阅');
 }
 
 function gen_sub_menus(m){
@@ -119,7 +126,7 @@ function gen_sub_menus(m){
     var subs = m.sub_button;
     for (var i = 0; i < subs.length; i++) {
         var sub = subs[i];
-        ret += '<A href="javascript:on_menu(\'' + sub.key + '\');"><span>' + sub.name + '</span></A>'
+        ret += '<A href="javascript:on_menu(\'' + sub.key + '\', \'' + sub.name + '\');"><span>' + sub.name + '</span></A>'
     };
     if (!ret) {return ret;}
     ret = '<dd>' + ret + '</dd>';
@@ -215,11 +222,53 @@ $(document).ready(function() {
 		if(e.keyCode != 13 ) { return; }
 		var msg = $("#entry").attr("value").replace("\n", "");
 		if(!util.isBlank(msg)) {
-			pomelo.request('sim.simHandler.send', {content: msg}, function(data) {
-				$("#entry").attr("value", ""); // clear the entry field.
-                addMessage('你发送了:', msg);
-                $("#chatHistory").show();
-			});
+            send_msg(msg);
 		}
 	});
 });
+
+
+var show_reply = function(json){
+	var msgElem = $(document.createElement("div"));
+    var msg = util.now() + ' | 系统回复<br/>';
+    if(json.Articles){
+        var lst = json.Articles.item;
+        msg += '====== 多图文 ======<br/>';
+        for (var i = 0; i < lst.length; i++) {
+            var item = lst[i];
+            msg += '标题: ' + item.Title + '<br/>';
+            msg += '摘要: ' + item.Description + '<br/>';
+            msg += '图片: <a style="color:blue;" href="' + item.PicUrl +'">' + item.PicUrl + '</a><br/>';
+            msg += '链接: <a style="color:blue;" href="' + item.Url + '">' + item.Url + '</a><br/>';
+        };
+    }else if(json.Content){
+        msg += '====== 文本 ======<br/>';
+        msg += json.Content; 
+    }else if(json.Music){
+        msg += '====== 音乐 ======<br/>';
+        var item = json.Music[0];
+        msg += '标题: ' + item.Title + '<br/>';
+        msg += '摘要: ' + item.Description + '<br/>';
+        msg += '高音质URL: ' + item.HQMusicUrl + '<br/>';
+        msg += '低音质URL: : <a href="' + item.MusicUrl + '">' + item.MusicUrl + '</a><br/>';
+    }
+    msg += '<br/><br/><br/>';
+    msgElem.html(msg);
+    add_msg_elem(msgElem);
+}; // show_reply()
+
+var send_msg = function(evt, evt_key, menu_name){
+    $("#entry").attr("value", ""); // clear the entry field.
+    var params;
+    if (arguments.length > 1) {
+        params = {evt: evt, evt_key: evt_key};
+        addMessage('你点击了菜单:', menu_name);
+    }else{
+        params = {content: evt};
+        addMessage('你发送了:', evt);
+    }
+    $("#chatHistory").show();
+    pomelo.request('sim.simHandler.send', params, function(data) {
+        show_reply(data.res);
+    });
+} // send_msg()

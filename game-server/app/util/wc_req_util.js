@@ -17,7 +17,7 @@ var _info = {
 
 var _send_req = makeRequest(url, token);
 
-var exp = module.export;
+var exp = module.exports;
 
 exp.send_evt = function(evt, key, cb){
     _info.event = evt;
@@ -28,5 +28,6 @@ exp.send_evt = function(evt, key, cb){
 exp.send_text = function(text, cb){
     _send_req(text, cb);
 };
+
 
 
