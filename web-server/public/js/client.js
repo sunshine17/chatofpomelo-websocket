@@ -243,7 +243,7 @@ var show_reply = function(json){
         };
     }else if(json.Content){
         msg += '====== 文本 ======<br/>';
-        msg += json.Content; 
+        msg += json.Content.replace(/\n/ig, '<br/>'); 
     }else if(json.Music){
         msg += '====== 音乐 ======<br/>';
         var item = json.Music[0];
